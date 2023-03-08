@@ -2,11 +2,27 @@
 <html lang="pt-br">
 <head>
     <meta charset="UTF-8">
-    <title>Sobre Mim</title>
+    <title>Contato</title>
 </head>
 <body>
-    <header>
-        Esses são os contatos...
-    </header>
+    <form>
+        <input type="text" name="nome" placeholder="Nome"></br>
+        <input type="email" name="email" placeholder="E-mail"></br>
+        <input type="tel" name="tel" placeholder="(xx) xxxxx-xxxx"></br>
+        <input type="number" name="idade" placeholder="Idade"><br>
+        <input type="checkbox" name="dia-da-semana" value="2"/>Segunda-Feira</br>
+        <input type="checkbox" name="dia-da-semana" value="4"/>Quarta-Feira</br>
+        <input type="checkbox" name="dia-da-semana" value="6"/>Sexta-Feira</br>
+        <input type="radio" name="horario" value="manha"/>Manhã
+        <input type="radio" name="horario" value="tarde"/>Tarde
+        <input type="radio" name="horario" value="noite"/>Noite <br>
+        <textarea name="textarea" cols="30" rows="10"></textarea><br>
+        <input list="cidade" name="cidade"/>
+        <datalist id="cidade">
+            <option value="SP">São Paulo</option>
+            <option value="RJ">Rio de Janeiro</option>
+            <option value="MG">Minas Gerais</option>
+        </datalist>
+    </form>
 </body>
 </html>

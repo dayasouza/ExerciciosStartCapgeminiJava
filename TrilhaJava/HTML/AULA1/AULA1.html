@@ -6,6 +6,10 @@
 </head>
 <body>
     <header>
+        <figure>
+            <img src="https://via.placeholder.com/200" width="200" height="200" alt="quadrado cinza com o número '200' dentro"/>
+            <figcaption>Quadrado cinza com o número 200 dentro</figcaption>
+        </figure>
         <h1>
             Currículo de Estudos 
             <span>
@@ -155,19 +159,48 @@
         </nav>
     </aside>
     <aside>
-        <h4>Horário de Estudos</h4>
-        <table>
-            <caption>Horarios de estudo
-            </caption>
+        <table border="1">
+            <caption><h4>Horário de Estudos</h4></caption>
+            <thead>
+                <tr>
+                    <th>Dias da Semana</th>
+                    <th>Seg</th>
+                    <th>Ter</th>
+                    <th>Qua</th>
+                    <th>Qui</th>
+                    <th>Sex</th>
+                </tr>
+            </thead>
             <tbody>
-                
+                <tr>
+                    <td>Manhã</td>
+                    <td rowspan="2">HTML</td>
+                    <td rowspan="2">CSS</td>
+                    <td>HTML</td>
+                    <td>CSS</td>
+                    <td rowspan="2">JavaScript</td>
+                </tr>
+                <tr>
+                    <td>Tarde</td>
+                    <td colspan="2">JavaScript</td>
+                </tr>
             </tbody>
+            <tfoot>
+                <tr>
+                    <th></th>
+                    <th>Foco HTML</th>
+                    <th>Foco CSS</th>
+                    <th>HTML com JS</th>
+                    <th>CSS com JS</th>
+                    <th>Foco JS</th>
+                </tr>
+            </tfoot>
         </table>
     </aside>
     <footer>
         <nav>
-            LinkedIn <br/>
-            ProWay <br/>
+            <a href="https://www.linkedin.com"> LinkedIn</a> </br>
+            <a href="https://www.proway.com.br"></a> ProWay <br/>
             Escola <br/>
             Faculdade <br/>
         </nav>
